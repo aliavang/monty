@@ -14,6 +14,5 @@ int main(int ac, char **av)
 		fprintf(stderr, "USAGE: monty file\n");
 		return (EXIT_FAILURE);
 	}
-	find_shrubs(av[1]);
 	return (EXIT_SUCCESS);
 }
